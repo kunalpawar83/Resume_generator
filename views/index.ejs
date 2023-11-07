@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="box">
+        <h1> <%=kindOfDay%></h1>
+        
+    </div>
+    <ul>
+        <li>buy food</li>
+        <li>cook food</li>
+        <li>eat food</li>
+        <%if(locals.newlistitem){%>
+         <%for(let i=0;i<newlistitem.length;i++){%>
+        <li><%=newlistitem[i]%></li>
+        <%}%>
+        <%}%>
+          <form action="/" method="post">
+              <input type="text" name="newitem" >
+              <br>
+              <button type="submit">Add</button>
+              
+          </form>
+    </ul>
+</body>
+</html>

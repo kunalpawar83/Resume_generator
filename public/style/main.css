@@ -1,0 +1,41 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+.box{
+    border: 2px solid black;
+    height: 80px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: rgb(85, 90, 8);
+    width: 50%;
+    margin: auto;    
+
+}
+ul{
+    width: 15%;
+    margin: auto;
+    margin-top: 4rem;
+
+}
+li{
+    list-style: square;
+    font-size: xx-large;
+}
+input{
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+button{
+    font-size: large;
+    margin-top: 20px;
+    padding: 10px;
+}
